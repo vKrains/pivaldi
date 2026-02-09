@@ -1,1 +1,2 @@
-BOT_TOKEN = "ВСТАВЬ_СЮДА_ТОКЕН_ОТ_BOTFATHER"
+import os
+BOT_TOKEN = os.getenv("BOT_TOKEN")
